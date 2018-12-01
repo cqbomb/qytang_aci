@@ -1,0 +1,39 @@
+{% extends "base_layout.html" %}
+{% block title %}
+{{ title }}
+{% endblock %}
+{% block content %}
+
+<html>
+<body bgcolor="#0000FF">
+<div class="container">
+     <h1>WebArya</h1>
+    <p class="lead">
+        This utility will convert XML/JSON from APIC to Python Code!!!!
+    </p>
+</div>
+
+<br>
+
+<div class="container">
+  <div class="center-block">
+     <form action="" method="POST" name="data">
+        {{form.data(cols='120',rows='30')|safe}}
+        <br><button type="submit" class="btn btn-primary btn-lg">Submit</button>
+     </form>
+  </div>
+</div>
+
+<br><br>
+
+Sample JSON code<br>
+
+{"fvTenant":{"attributes":{"dn":"uni/tn-testing","name":"testing","rn":"tn-testing","status":"created"},"children":[]}}
+
+
+
+<br><br><br>
+Currently served by {{ hostname }}
+</body>
+</html>
+{% endblock %}

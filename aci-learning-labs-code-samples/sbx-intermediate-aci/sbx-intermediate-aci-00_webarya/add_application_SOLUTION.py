@@ -18,10 +18,10 @@ from credentials import *
 # configuration variables
 tenant = 'Heroes'
 bridge_domain = 'Hero_Land'
-application = 'Save_The_Network'
-vlan1 = 'vlan-211'
-vlan2 = 'vlan-212'
-vlan3 = 'vlan-210'
+application = 'QYT_Save_The_Network'
+vlan1 = 'vlan-2111'
+vlan2 = 'vlan-2121'
+vlan3 = 'vlan-2101'
 
 # log into an APIC and create a directory object
 ls = cobra.mit.session.LoginSession(URL, LOGIN, PASSWORD)
