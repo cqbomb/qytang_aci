@@ -34,7 +34,7 @@ It logs in to the APIC and will create the tenant.
 import acitoolkit.acitoolkit as aci
 
 # Define static values to pass (edit these if you wish to set differently)
-DEFAULT_TENANT_NAME = 'tenant_kit_qyt'
+DEFAULT_TENANT_NAME = 'a_tenant_qytang'
 
 
 def main():
